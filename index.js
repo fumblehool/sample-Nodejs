@@ -15,7 +15,7 @@ var lorem = new LoremIpsum({
   }
 });
 
-app.get('/lorem', (req, res) => res.send(lorem.generateParagraphs(10)))
+// app.get('/lorem', (req, res) => res.send(lorem.generateParagraphs(10)))
 
 app.get('/', (req, res) => res.send('Hello World'))
 
