@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "echo 'hello' && df -h /",
+    "build": "echo 'hello' && df -h / && sleep 10m",
     "start": "node ./bin/www"
   },
   "dependencies": {
