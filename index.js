@@ -6,12 +6,12 @@ var LoremIpsum = require('lorem-ipsum').LoremIpsum;
 
 var lorem = new LoremIpsum({
   sentencesPerParagraph: {
-    max: 8,
-    min: 4
+    max: 10,
+    min: 6
   },
   wordsPerSentence: {
-    max: 16,
-    min: 4
+    max: 18,
+    min: 6
   }
 });
 
